@@ -8,6 +8,10 @@ class HomePage extends StatelessWidget {
     const numb = 800;
     const name = "yaseen";
     return Scaffold(
+      appBar: AppBar(
+        title: Text("MYAPP"),
+      ),
+      drawer: Drawer(),
       body: Center(
         child: Container(
           child: Text('Welcome MYAPP $numb by $name'),
