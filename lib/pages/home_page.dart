@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const numb = 800;
+    const numb = 100;
     const name = "yaseen";
     return Scaffold(
       appBar: AppBar(
